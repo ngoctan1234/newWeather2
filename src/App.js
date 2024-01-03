@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ApiStudent from "./components/ApiStudent";
+import Calc from "./components/Calc";
+import CountDown from "./components/CountDown";
+import CountUp from "./components/CountUp";
+import Effect from "./components/Effect";
+import Ex1 from "./components/Ex1";
+import Login from "./components/Login";
+import Name from "./components/Name";
+import Object from "./components/Object";
+import ReactStr from "./components/ReactStr";
+import Weather from "./components/Weather";
+import Weather1 from "./components/Weather1";
+import Footer from "./components/footer/Footer";
+import "./style.css";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <ReactStr />
+            <Footer />
+        </>
+    );
 }
-
 export default App;

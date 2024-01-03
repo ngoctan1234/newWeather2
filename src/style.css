@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #0000ff;
+    --body-fonts: "Helvetica", "Arial", sans-serif;
+    --line-height: 1.5;
+    --color-heading: red;
+}
